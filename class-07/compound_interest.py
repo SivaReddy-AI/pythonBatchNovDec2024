@@ -6,3 +6,4 @@ print(simple_interst)
 n = int(input(" the number of times that interest is compounded per unit time :"))
 compund_interst = principal_amount * (1 + rate_interst / n) ** n * time
 print(compund_interst)
+
